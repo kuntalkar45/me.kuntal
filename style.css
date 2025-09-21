@@ -1,0 +1,110 @@
+/* Global */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #000; /* pure black */
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  background: rgba(0, 0, 0, 0.9) !important;
+  backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+}
+.navbar .nav-link {
+  color: #aaa !important;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #0ff !important;
+  text-shadow: 0 0 10px #0ff;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #000, #111 60%, #222);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3rem;
+  text-shadow: 0 0 15px rgba(0,255,255,0.6);
+}
+.hero p {
+  color: #bbb;
+}
+.hero .btn {
+  border-radius: 30px;
+  padding: 10px 25px;
+  transition: 0.3s;
+}
+.hero .btn:hover {
+  background: #0ff;
+  color: #000;
+  box-shadow: 0 0 20px #0ff;
+}
+
+/* Section Titles */
+h2 {
+  text-shadow: 0 0 10px rgba(0,255,255,0.4);
+}
+
+/* About */
+#about p {
+  color: #ccc;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Skills */
+#skills i {
+  font-size: 3rem;
+  color: #0ff;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+}
+#skills i:hover {
+  transform: scale(1.2);
+  text-shadow: 0 0 20px #0ff;
+}
+#skills p {
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+/* Education Cards */
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px rgba(0,255,255,0.4);
+}
+
+/* Contact Icons */
+a img {
+  transition: transform 0.3s, filter 0.3s;
+  margin: 10px;
+}
+a img:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 10px #0ff);
+}
+
+/* Footer */
+footer {
+  background: #111;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+footer small {
+  color: #555;
+}
